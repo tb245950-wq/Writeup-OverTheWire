@@ -1,0 +1,34 @@
+bandit 1= 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
+ls -> cd
+bandit 2= PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
+ls -> find -> cat ./-
+bandit 3= 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
+ls -> find -> cat "./--spaces in this filename--"
+bandit 4= xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
+ls -> cd inhere/ -> ls -la -> find -> cat ./...Hiding-From-You
+bandit 5= 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
+ls -> cd inhere/ -> ls -la -> cat ./-file07
+bandit 6= pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
+ls ->cd inhere/ ->find . -type f -size 1033c -cd ./maybehere07 ->ls -la -cat .file2
+bandit 7= Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
+cd .. -> cd .. -> find / -user bandit8 -group bandit7 -size 33c 2>/dev/null -> cat /var/lib/dpkg/info/bandit7.password
+bandit 8= VR1ljMayciFxbnUokuQmJFw6QC9VKtub
+ls -> file data.txt -> grep milliomth data.txt
+bandit 9= EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
+ls -> sort data.txt | uniq -u
+bandit 10= B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
+ls -> strings data.txt | grep "="
+bandit 11= pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
+ls -> base64 -d data.txt
+bandit 12= GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
+ls -> cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+bandit 13= qQYQiHOBPR8zR61qxYqX45quvihF2uzk
+ls -> mkdir /tmp/kerjaanku123 -> cp data.txt /tmp/kerjaanku123 .-> cd /tmp/kerjaanku123 -> ls -> file file1 -> xxd -r data.txt > file1 -> file file1 -> mv file1 file1.bz2 -> bunzip2 file1.bz2 -> file file1 -> mv file1 file1.gz -> gunzip file1.gz -> file file1 ->mv file1 file1.tar ->tar -xf file1.tar -file file1 -> ls -> tar -xf file1.tar -> ls -> file data5.bin -> tar -xf data5.bin -> ls -> mv data6.bin data6.bz2 -> bunzip2 data6.bz2 -> ls -> file data6 -> tar -xf data6 -> ls -> file data8.bin -> mv data8.bin data8.gz -> gunzip data8.gz -> ls -> file data8 -> cat data8
+bandit 14= aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
+ls -> cat sshkey.private -> copy sshkey.private -> buat file di terminal kita -> nano kunci14 -> isi dengan isi dari sshkey.private yang kita copy -> ctrl + 0 -> enter -> ctrl x -> chmod 600 kunci14 -> ssh -i kunci14 bandit14@bandit.labs.overthewire.org -p 2220 -> cat /etc/bandit_pass/bandit14
+bandit 15= pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7
+nc localhost 30000 -> lalu paste pass yang didapat di etc/bandit_pass/bandit14
+bandit 16= kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V
+openssl s_client -connect localhost:30001 -> paste lagi password bandit 15
+bandit 17= 
+
